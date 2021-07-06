@@ -1,0 +1,3 @@
+web: bundle exec rails s
+bot: ruby telegram/bot.rb
+release: bin/rake db:migrate
